@@ -1,0 +1,42 @@
+//Game Starts
+--wins starts at zero (hard coded into the HTML)
+--losses starts at zero (hard coded into the HTML)
+--Guesses Left starts at 9
+--Guesses so far starts at blank (hard coded as blank but also js resets)
+
+//app randomly picks a letter from an array of the alphabet
+
+//user types in a guess
+
+//translate user's guess to lower case (or upper case) to ensure consistency
+
+***IF User's Choice does not match Computer Pick then 
+--reduce remaining guesses
+--add to display of guesses so far (i.e., a, b, c, d, etc.)
+***END IF
+
+***IF User's Choice equals Computer Pick then
+--increase Wins by one
+--reset guesses Left to 9
+--reset guesses so far to blank
+--computer picks new letter
+***END IF
+
+***WHEN Guesses Left = 0
+--increment Losses count by 1
+--reset guesses Left to 9
+--reset guesses so far to blank
+--computer picks new letter
+
+
+//add to display of guesses so far (i.e., a, b, c, d, etc.)
+--should guesses be displayed in the case the user typed?
+
+Game never ends??? 
+
+ABC
+
+
+
+
+
