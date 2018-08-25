@@ -1,3 +1,4 @@
+"use strict";
 /*Functions that are likely to be reused in many different applications*/
 
 //function for random computer choice
@@ -54,7 +55,11 @@
         userChoice = event.key;
         
         //******NEED TO WRITE FUNCTION TO ONLY DISPLAY LETTERS*******//
-        if (userChoice.length === 1 && userChoice.toLowerCase() >= "a" && userChoice.toLowerCase() <= "z") {
+        if (userChoice.length === 1 
+            && userChoice.toLowerCase() >= "a" 
+            && userChoice.toLowerCase() <= "z" 
+            && userChoices.indexOf(userChoice) < 0) {
+            
             //valid entry
 
             //deal with comma 
@@ -93,5 +98,3 @@
         } 
 
     } //close onkeyup function
-
-
