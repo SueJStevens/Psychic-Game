@@ -1,4 +1,4 @@
-# Psychic-Game
+# The Psychic Game
 Bootcamp Assignment 8/18/2018 - Psychic Game (i.e., Guess the Letter)
 
 ## Demo
@@ -13,5 +13,17 @@ Simple app to feature dynamically updated HTML and CSS powered by JavaScript cod
 * Ignores numbers and symbols
 
 ## Companion Homework Assignments
-*Guess! The! Word!* is deployed to Github.  Please check it out [here] (https://suejstevens.github.io/Word-Guess-Game/).
-*Word Guess Game, The Object Version* is deployed to Github.  Please check it out [here](https://suejstevens.github.io/Word-Guess-Game_ObjectVersion/).
+*Guess! The! Word!* is deployed to Github.     
+ Please check it out [here] (https://suejstevens.github.io/Word-Guess-Game/).     
+
+*Word Guess Game, The Object Version* is deployed to Github.     
+ Please check it out [here](https://suejstevens.github.io/Word-Guess-Game_ObjectVersion/).
+
+## Technology
+### Hosting Platform
+  * Github (https://github.com)
+### Front-End
+  * HTML
+  * CSS
+  * Bootstrap v4 (https://getbootstrap.com/)
+  * Javascript
